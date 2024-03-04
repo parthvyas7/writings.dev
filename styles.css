@@ -8,7 +8,6 @@ body {
   background-color: #232830;
 }
 
-/*common-css*/
 .container{
   width: 1440px;
   max-width: 100%;
@@ -122,34 +121,34 @@ section .col{
   margin-left: 50px;
   margin-top: 20px;
 }
-section .box{
+section .card{
   background-color: #FFFFFF;
   text-align: center;
   border-radius: 22px;   
 }
-.box img{
+.card img{
   margin-top: 5%;
 }
-.sep1{
+.hdg{
   font-size: 19px;
   font-weight:bolder;
   color: #0F1217;
   line-height: 28.5px;
   margin:5% 10%;
 }
-.sep2{
+.desc{
   font-size: 14px;
   color: #0F1217;
   line-height: 24px;
   margin:0% 10% ;
 }
-.down{
+.tgs{
   display: flex;
   margin: 5% 0%;
   margin-left: 10%;
   padding-bottom: 5%;
 }
-.down .sep2{
+.tgs .desc{
   margin-left:0px ;
 }
 .pagination {
@@ -171,6 +170,10 @@ section .box{
   color: #909090;
   text-align: center;
   width: 10px;
+}
+.pagination .active{
+  color: #FF7575;
+  border-top: 2px solid #FF7575;
 }
 .pagination a:hover {
   color: #FF7575;
